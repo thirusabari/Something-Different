@@ -1,0 +1,31 @@
+﻿body {
+}
+#logo{
+	width:400px;
+	height:300px;
+}
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	
+}
+h1, h2 {
+	text-align: center;
+}
+.left {
+	left: 0;
+	background-color: lightgreen;
+	text-align: center;
+}
+.right{
+	right:0;
+	background-color:  lavender;
+}
+#LoginForm{
+	left:100px;
+}
