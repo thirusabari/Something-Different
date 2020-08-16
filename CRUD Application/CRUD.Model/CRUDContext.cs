@@ -8,7 +8,12 @@ namespace CRUD.Model
 {
 	public partial class CRUDContext : DbContext
 	{
+		public DbSet<UserLoginInfo> UserLoginInfo { get; set; }
 		public DbSet<IDCardDetails> IdCardDetails { get; set; }
+		public DbSet<StudentIDInfo> StudentIDInfo { get; set; }
+
+		public DbSet<EmployeeIDInfo> EmployeeIDInfo { get; set; }
+		
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{

@@ -151,8 +151,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\ID Card Logo.png" />
-    <Content Include="Scripts\Application\UserLogin.js" />
+    <Content Include="Images\CookiedBaked.jpg" />
+    <Content Include="Images\DriftCar.jpg" />
+    <Content Include="Images\FlowerBouqet.jpg" />
+    <Content Include="Images\HeadPhones.jpg" />
+    <Content Include="Images\PaintWater.jpg" />
+    <Content Include="Images\RaceBikes.jpg" />
+    <Content Include="Images\Smile Please Logo.png" />
+    <Content Include="Images\WelcomePage.jpg" />
+    <Content Include="Scripts\Application\UserLoginViewModel.js" />
     <Content Include="Scripts\Framework\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Framework\Bootstrap\bootstrap.min.js" />
     <None Include="Scripts\Framework\jQuery\jquery-3.4.1.intellisense.js" />

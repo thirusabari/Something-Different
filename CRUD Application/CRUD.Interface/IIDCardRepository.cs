@@ -7,6 +7,6 @@ namespace CRUD.Interface
 {
 	public interface IIDCardRepository
 	{
-		List<IDCardListUI> GetAllIdCards();
+		//List<IDCardListUI> GetAllIdCards();
 	}
 }

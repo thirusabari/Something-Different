@@ -19,7 +19,8 @@ namespace CRUD.Services.IDCard
 		[HttpGet]
 		public List<IDCardListUI> GetIDCardList()
 		{
-			return iIDCardRepository.GetAllIdCards();
+			//return iIDCardRepository.GetAllIdCards();
+			return new List<IDCardListUI>();
 		}
 
 	}

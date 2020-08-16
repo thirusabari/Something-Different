@@ -1,40 +1,54 @@
 ﻿@{
-    ViewBag.Title = "ID Card Design Management";
+    ViewBag.Title = "Smile Please";
 }
 <script type="text/javascript">
-    $(function () {
+	$(function () {
+		var slideIndex = 0;
+		var slideIndex = 0;
+		showSlides();
 
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("slideImages");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+		function OpenSignIn() {
+			// ToDo
+		}
     });
 </script>
 <div class="container">
 	
 	<div class="split left">
-		<h1>Welcome To</h1>
-		<h1>ID Card Design Management System</h1>
-		<br />
-		<br />
-		<br />
-		@*<img src="~/Images/ID Card Logo.png" alt="IdCard_logo" id="logo" />*@
+		<button id="templateBtn">Open Templates</button>
+		<div class="slideImages">
+			<img src="~/Images/FlowerBouqet.jpg" alt="Flowers Boutiquet" id="sldimg" />
+		</div>
+		<div class="slideImages">
+			<img src="~/Images/PaintWater.jpg" alt="Paint Water" id="sldimg" />
+		</div>
+		<div class="slideImages">
+			<img src="~/Images/CookiedBaked.jpg" alt="Cookies Baked" id="sldimg" />
+		</div>
+		<div class="slideImages">
+			<img src="~/Images/RaceBikes.jpg" alt="Race Bikes" id="sldimg" />
+		</div>
+		<div class="slideImages">
+			<img src="~/Images/DriftCar.jpg" alt="Drift Car" id="sldimg" />
+		</div>
+		<div class="slideImages">
+			<img src="~/Images/HeadPhones.jpg" alt="HeadPhones" id="sldimg" />
+		</div>
 	</div>
 	<div class="split right">
-		<div></div>
-		<table id="LoginForm">
-			<tbody>
-				<tr>
-					<td><label for="UserName"> Enter Your Name: </label></td>
-					<td><input type="text" name="UserName" data-bind="value:UserName()" /></td>
-				</tr>
-				<tr>
-					<td><label for="PassWord"> Enter Your Password: </label></td>
-					<td><input type="text" name="PassWord" data-bind="value:PassWord()" /></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><input type="button" data-bind="click:$root.login" value="Login" /></td>
-				</tr>
-			</tbody>
-		</table>
-		
+		<img src="~/Images/Smile Please Logo.png" alt="Logo" id="Splogo"  title="Click Me" onclick="OpenSignIn()"/>
 	</div>
 
 </div>
+
