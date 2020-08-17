@@ -1,0 +1,14 @@
+Pending Works To Do
+
+1. Have to Create Favorite Icon
+2. Have to Create New Loader Image
+3. SignIn Popup [Form]
+4. While SignIn, Have to Save the LogInInfo on the backend
+5. Redirecting Welcome Screen After SignIn
+6. If "Open Templates" Button Clicked, Need to Redirect to Sample Templates Screen
+7. Have to Create Navigation Bar
+8. Have to Create 6 or more ID Card Designs and bring them under the "Templates Menu". (3 School Id Cards, 3 Employee Id Cards )
+9. Have to Display ID Card List Screen And need to Provide the CRUD Operation for the ID Card List [ Both Client Side/Server Side/ Backend data Process Works]
+10. Have to Analyse, if there is a way to edit the existing ID Card Designs (PSD File/Image Files) with custom user data [ new ID Card Design Data]
+11. Have to Analyse, "How to Create Photoshop Templates/ MS Word Templates"
+ 
