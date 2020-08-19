@@ -34,10 +34,58 @@
 	background-repeat: no-repeat;
 	/*opacity: 0.6;*/
 }
-
-#templateBtn {
+#signInBtn {
 	position: fixed;
-	top: 20%;
+	top: 15%;
+	left: 80%;
+	background-color:   Highlight;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+	border: none;
+	text-align: center;
+}
+
+	#signInBtn:hover {
+		background-color: orangered;
+	}
+#myForm{
+	display:none;
+	position:fixed;
+	top:0;
+	right:15px;
+	border: 3px solid
+}
+.form-container{
+	max-width:300px;
+	padding:10px;
+	background-color:white;
+}
+input:focus{
+	color:lightgray;
+	outline:none;
+}
+.form-container.btn{
+	background-color:lightseagreen;
+	color:white;
+	padding:16px 20px;
+	border:none;
+	cursor:pointer;
+	width:100%;
+	margin-bottom:10px;
+	opacity:0.8;
+}
+	.form-container.btn cancel{
+		background-color:red;
+	}
+	.form-container.btn:hover, #signInBtn:hover{
+		opacity:1;
+	}
+/*#templateBtn {
+	position: fixed;
+	top: 15%;
 	left: 7%;
 	background-color: Highlight;
 	color: white;
@@ -51,9 +99,8 @@
 
 	#templateBtn:hover {
 		background-color: orangered;
-	}
-
-#Splogo {
+	}*/
+/*#Splogo {
 	position: fixed;
 	width: 300px;
 	height: 300px;
@@ -63,5 +110,5 @@
 }
 
 	#Splogo:hover {
-		/*opacity:0.2;*/
-	}
+		opacity:0.2;
+	}*/

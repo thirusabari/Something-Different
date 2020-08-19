@@ -158,7 +158,9 @@
     <Content Include="Images\PaintWater.jpg" />
     <Content Include="Images\RaceBikes.jpg" />
     <Content Include="Images\Smile Please Logo.png" />
+    <Content Include="Images\SportRacing.jpg" />
     <Content Include="Images\WelcomePage.jpg" />
+    <Content Include="Images\WristWatch.jpg" />
     <Content Include="Scripts\Application\UserLoginViewModel.js" />
     <Content Include="Scripts\Framework\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Framework\Bootstrap\bootstrap.min.js" />

@@ -11,4 +11,5 @@ Pending Works To Do
 9. Have to Display ID Card List Screen And need to Provide the CRUD Operation for the ID Card List [ Both Client Side/Server Side/ Backend data Process Works]
 10. Have to Analyse, if there is a way to edit the existing ID Card Designs (PSD File/Image Files) with custom user data [ new ID Card Design Data]
 11. Have to Analyse, "How to Create Photoshop Templates/ MS Word Templates"
+12. Have to Analyse, "How to Create ID Card Templates in HTML Document"
  

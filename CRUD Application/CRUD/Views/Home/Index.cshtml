@@ -18,15 +18,22 @@
 			slides[slideIndex - 1].style.display = "block";
 			setTimeout(showSlides, 2000); // Change image every 2 seconds
 		}
+		$("#signInBtn").click(function () {
+			document.getElementById("SignInForm").style.display = "block";
+		});
+		$(".btn cancel").click(function () {
+			document.getElementById("SignInForm").style.display = "none";
+		});
 		function OpenSignIn() {
 			// ToDo
 		}
+
     });
 </script>
 <div class="container">
-	
+
 	<div class="split left">
-		<button id="templateBtn">Open Templates</button>
+		@*<button id="templateBtn">Open Templates</button>*@
 		<div class="slideImages">
 			<img src="~/Images/FlowerBouqet.jpg" alt="Flowers Boutiquet" id="sldimg" />
 		</div>
@@ -45,9 +52,27 @@
 		<div class="slideImages">
 			<img src="~/Images/HeadPhones.jpg" alt="HeadPhones" id="sldimg" />
 		</div>
+		<div class="slideImages">
+			<img src="~/Images/SportRacing.jpg" alt="Sport Racing" id="sldimg" />
+		</div>
+		<div class="slideImages">
+			<img src="~/Images/WristWatch.jpg" alt="Wrist Watch" id="sldimg" />
+		</div>
 	</div>
 	<div class="split right">
-		<img src="~/Images/Smile Please Logo.png" alt="Logo" id="Splogo"  title="Click Me" onclick="OpenSignIn()"/>
+		@*<img src="~/Images/Smile Please Logo.png" alt="Logo" id="Splogo"  title="Click Me" onclick="OpenSignIn()"/>*@
+		<button type="button" id="signInBtn" @* onclick="openForm()*@">Sign In</button>
+	</div>
+	<div id="SignInForm">
+		@*<form class="form-container">
+			<h1> Login </h1>
+			<label for="email"><b>Email</b></label>
+			<input type="email" placeholder="Enter Email" name="email" required />
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required />
+			<button type="submit" class="btn" onclick="login()">Login</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		</form>*@
 	</div>
 
 </div>
