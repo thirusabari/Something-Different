@@ -15,7 +15,6 @@ namespace CRUD.Services.IDCard
 		{
 			iIDCardRepository = _iIDCardRepository;
 		}
-
 		[HttpGet]
 		public List<IDCardListUI> GetIDCardList()
 		{

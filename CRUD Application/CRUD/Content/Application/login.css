@@ -1,49 +1,30 @@
 ﻿body {
 	overflow: hidden;
-	background-color: aliceblue;
 }
 
 .slideImages {
 	display: none;
 }
-
-.split {
-	height: 100%;
-	position: fixed;
-	/*width: 60%;
-	z-index: 1;*/
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
+img {
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.left {
-	left: 0;
-	position: relative;
-}
-
-.right {
-	right: 0;
-	left: auto;
-}
-
-#sldimg {
-	height: 100%;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	/*opacity: 0.6;*/
+.Image-Slideshow{
+	height:100%;
+	width:70%;
+	overflow-x:hidden;
 }
 #signInBtn {
 	position: fixed;
-	top: 15%;
-	left: 80%;
-	background-color:   Highlight;
+	top: 85%;
+	left: 88%;
+	background-color: Highlight;
 	color: white;
 	font-size: 16px;
 	cursor: pointer;
-	width: 160px;
-	height: 50px;
+	width: 100px;
+	height: 40px;
 	border: none;
 	text-align: center;
 }
@@ -51,42 +32,11 @@
 	#signInBtn:hover {
 		background-color: orangered;
 	}
-#myForm{
-	display:none;
-	position:fixed;
-	top:0;
-	right:15px;
-	border: 3px solid
-}
-.form-container{
-	max-width:300px;
-	padding:10px;
-	background-color:white;
-}
-input:focus{
-	color:lightgray;
-	outline:none;
-}
-.form-container.btn{
-	background-color:lightseagreen;
-	color:white;
-	padding:16px 20px;
-	border:none;
-	cursor:pointer;
-	width:100%;
-	margin-bottom:10px;
-	opacity:0.8;
-}
-	.form-container.btn cancel{
-		background-color:red;
-	}
-	.form-container.btn:hover, #signInBtn:hover{
-		opacity:1;
-	}
-/*#templateBtn {
+
+#templateBtn {
 	position: fixed;
-	top: 15%;
-	left: 7%;
+	top: 10%;
+	left: 5%;
 	background-color: Highlight;
 	color: white;
 	font-size: 16px;
@@ -99,16 +49,21 @@ input:focus{
 
 	#templateBtn:hover {
 		background-color: orangered;
-	}*/
-/*#Splogo {
+	}
+#Splogo {
 	position: fixed;
-	width: 300px;
-	height: 300px;
-	top: 1%;
-	left: 75%;
+	width: 350px;
+	height: 350px;
+	top: 0%;
+	left: 70%;
 	cursor: pointer;
 }
-
-	#Splogo:hover {
+#LoginForm {
+	position: fixed;
+	top: 50%;
+	left: 73%;
+	cursor: pointer;
+}
+/*#Splogo:hover {
 		opacity:0.2;
 	}*/

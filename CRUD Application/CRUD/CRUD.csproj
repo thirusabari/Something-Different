@@ -139,6 +139,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Authorization\AuthorizationServiceController.cs" />
     <Compile Include="Services\IDCard\IDCardServiceController.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -151,16 +152,22 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\bmw.jpg" />
     <Content Include="Images\CookiedBaked.jpg" />
+    <Content Include="Images\cupspray.jpg" />
+    <Content Include="Images\dragon.jpg" />
+    <Content Include="Images\dragon_classical.jpg" />
     <Content Include="Images\DriftCar.jpg" />
-    <Content Include="Images\FlowerBouqet.jpg" />
-    <Content Include="Images\HeadPhones.jpg" />
+    <Content Include="Images\flight_balloon.jpg" />
+    <Content Include="Images\mclaren_p1.jpg" />
     <Content Include="Images\PaintWater.jpg" />
     <Content Include="Images\RaceBikes.jpg" />
+    <Content Include="Images\rose_bud_orange.jpg" />
     <Content Include="Images\Smile Please Logo.png" />
     <Content Include="Images\SportRacing.jpg" />
+    <Content Include="Images\trees_green.jpg" />
+    <Content Include="Images\unicorn_water.jpg" />
     <Content Include="Images\WelcomePage.jpg" />
-    <Content Include="Images\WristWatch.jpg" />
     <Content Include="Scripts\Application\UserLoginViewModel.js" />
     <Content Include="Scripts\Framework\Bootstrap\bootstrap.js" />
     <Content Include="Scripts\Framework\Bootstrap\bootstrap.min.js" />

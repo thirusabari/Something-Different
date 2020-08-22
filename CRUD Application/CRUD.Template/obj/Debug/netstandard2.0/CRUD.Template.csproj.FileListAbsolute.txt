@@ -1,0 +1,9 @@
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\bin\Debug\netstandard2.0\CRUD.Template.deps.json
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\bin\Debug\netstandard2.0\CRUD.Template.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\bin\Debug\netstandard2.0\CRUD.Template.pdb
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\obj\Debug\netstandard2.0\CRUD.Template.csprojAssemblyReference.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\obj\Debug\netstandard2.0\CRUD.Template.AssemblyInfoInputs.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\obj\Debug\netstandard2.0\CRUD.Template.AssemblyInfo.cs
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\obj\Debug\netstandard2.0\CRUD.Template.csproj.CoreCompileInputs.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\obj\Debug\netstandard2.0\CRUD.Template.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Template\obj\Debug\netstandard2.0\CRUD.Template.pdb

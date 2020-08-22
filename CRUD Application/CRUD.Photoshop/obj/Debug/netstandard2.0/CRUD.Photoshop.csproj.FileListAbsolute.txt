@@ -1,0 +1,9 @@
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\bin\Debug\netstandard2.0\CRUD.Photoshop.deps.json
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\bin\Debug\netstandard2.0\CRUD.Photoshop.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\bin\Debug\netstandard2.0\CRUD.Photoshop.pdb
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\obj\Debug\netstandard2.0\CRUD.Photoshop.csprojAssemblyReference.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\obj\Debug\netstandard2.0\CRUD.Photoshop.AssemblyInfoInputs.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\obj\Debug\netstandard2.0\CRUD.Photoshop.AssemblyInfo.cs
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\obj\Debug\netstandard2.0\CRUD.Photoshop.csproj.CoreCompileInputs.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\obj\Debug\netstandard2.0\CRUD.Photoshop.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Photoshop\obj\Debug\netstandard2.0\CRUD.Photoshop.pdb

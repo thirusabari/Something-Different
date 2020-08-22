@@ -19,6 +19,7 @@ namespace CRUD
             
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
             container.RegisterType<IIDCardRepository, IDCardRepository>();
+            container.RegisterType<IAuthorizationRepository, AuthorizationRepository>();
         }
     }
 }
