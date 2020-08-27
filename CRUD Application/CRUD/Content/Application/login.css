@@ -17,7 +17,7 @@ img {
 }
 #signInBtn {
 	position: fixed;
-	top: 85%;
+	top: 75%;
 	left: 88%;
 	background-color: Highlight;
 	color: white;
@@ -63,6 +63,16 @@ img {
 	top: 50%;
 	left: 73%;
 	cursor: pointer;
+}
+#statusMessage {
+	width: 1201px;
+	height: 65px;
+	top: 86%;
+	left: 2%;
+	position:fixed;
+}
+#message {
+	padding-left:10px;
 }
 /*#Splogo:hover {
 		opacity:0.2;

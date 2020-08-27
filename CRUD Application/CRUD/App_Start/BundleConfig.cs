@@ -35,6 +35,7 @@ namespace CRUD
 			// ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
 			bundles.Add(new ScriptBundle("~/bundles/Framework").Include(
 						"~/Scripts/Framework/knockout-3.5.1.js",
+						"~/Scripts/Framework/knockout.validation.js",
 						"~/Scripts/Framework/modernizr-2.8.3.js"
 						));
 			bundles.Add(new StyleBundle("~/bundles/Application").Include(

@@ -182,6 +182,7 @@
     <Content Include="Scripts\Framework\jQuery\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\Framework\jQuery\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\Framework\knockout-3.5.1.js" />
+    <Content Include="Scripts\Framework\knockout.validation.js" />
     <Content Include="Scripts\Framework\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

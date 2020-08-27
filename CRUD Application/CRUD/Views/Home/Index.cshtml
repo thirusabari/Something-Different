@@ -4,7 +4,6 @@
 <script type="text/javascript">
 	$(function () {
 		var slideIndex = 0;
-		var slideIndex = 0;
 		showSlides();
 
 		function showSlides() {
@@ -20,7 +19,6 @@
 		}
 		var userLogin = new UserLoginViewModel();
 		ko.applyBindings(userLogin, $("#LoginForm")[0]);
-
 	});
 </script>
 <div class="container">
@@ -72,18 +70,8 @@
 	</div>
 	<div id="LoginForm">
 		<div class="col-md-2">
-			<label for="FirstName"><b>FirstName:</b></label>
-			<input type="text" class="form-control" data-bind="value:FirstName()" name="FirstName" placeholder="Enter FirstName" size="15" required />
-		</div>
-		<br />
-		<div class="col-md-2">
-			<label for="LastName"><b>Last Name: </b></label>
-			<input type="text" class="form-control" data-bind="value:LastName()" name="LastName" placeholder="Enter LastName" size="15" required />
-		</div>
-		<br />
-		<div class="col-md-2">
 			<label for="Email"><b>Email:</b></label><br />
-			<input type="email" class="form-control" data-bind="value:EmailId()" name="Email" placeholder="Enter Email" size="50" required />
+			<input type="email" class="form-control" data-bind="value:EmailId()" name="Email" placeholder="firstname_lastname@gmail.com" size="50" required />
 		</div>
 		<br />
 		<div class="col-md-2">
@@ -91,11 +79,17 @@
 			<input type="password" class="form-control" data-bind="value:PassWord()" name="Password" placeholder="Enter Password" size="50" required />
 		</div>
 		<br />
+
 		<div class="checkbox">
 			<label><input type="checkbox" data-bind="checked:IsRemember(),event:{click:EnableCheckbox}" name="remember"> Remember me</label>
 		</div>
+		<button id="signInBtn" data-bind="click: SignIn">Sign In</button>
+		<div id="statusMessage">
+			<p id="message"></p>
+		</div>
+
 	</div>
-	<button type="button" id="signInBtn" data-bind="event:{click:SignIn}">Sign In</button>
+	
 
 
 </div>
