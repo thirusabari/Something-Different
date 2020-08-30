@@ -71,7 +71,7 @@
 	<div id="LoginForm">
 		<div class="col-md-2">
 			<label for="Email"><b>Email:</b></label><br />
-			<input type="email" class="form-control" data-bind="value:EmailId()" name="Email" placeholder="firstname_lastname@gmail.com" size="50" required />
+			<input type="text" class="form-control" data-bind="value:EmailId()" name="Email" placeholder="firstname_lastname@gmail.com" size="50" required />
 		</div>
 		<br />
 		<div class="col-md-2">
@@ -80,10 +80,10 @@
 		</div>
 		<br />
 
-		<div class="checkbox">
-			<label><input type="checkbox" data-bind="checked:IsRemember(),event:{click:EnableCheckbox}" name="remember"> Remember me</label>
-		</div>
-		<button id="signInBtn" data-bind="click: SignIn">Sign In</button>
+		@*<div class="checkbox">
+			<label><input type="checkbox" data-bind="checked:IsRemember,event:{click:EnableCheckbox}" name="remember"> Remember me</label>
+		</div>*@
+	<button id="signInBtn" data-bind="click: SignIn()">Sign In</button>
 		<div id="statusMessage">
 			<p id="message"></p>
 		</div>

@@ -7,6 +7,6 @@ namespace CRUD.Interface
 {
 	public interface IAuthorizationRepository
 	{
-		LoginUI SignIn(LoginUI login);
+		RequestObject SignIn(LoginUI login);
 	}
 }

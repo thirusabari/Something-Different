@@ -17,7 +17,7 @@ namespace CRUD.Services.Authorization
 			iAuthorizationRepository = _iAuthorizationRepository;
 		}
 		[HttpPost]
-		public LoginUI UserSignIn(LoginUI loginDetails)
+		public RequestObject UserSignIn(LoginUI loginDetails)
 		{
 			return iAuthorizationRepository.SignIn(loginDetails);
 		}
