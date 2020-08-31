@@ -1,0 +1,12 @@
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\bin\Debug\netstandard2.0\CRUD.Interface.deps.json
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\bin\Debug\netstandard2.0\CRUD.Interface.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\bin\Debug\netstandard2.0\CRUD.Interface.pdb
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\bin\Debug\netstandard2.0\CRUD.Model.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\bin\Debug\netstandard2.0\CRUD.Model.pdb
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.csprojAssemblyReference.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.AssemblyInfoInputs.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.AssemblyInfo.cs
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.csproj.CoreCompileInputs.cache
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.csproj.CopyComplete
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.dll
+C:\GitHub\Something-Different\CRUD Application\CRUD.Interface\obj\Debug\netstandard2.0\CRUD.Interface.pdb

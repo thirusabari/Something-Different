@@ -1,4 +1,5 @@
-﻿var UserLoginViewModel = function () {
+﻿
+var UserLoginViewModel = function () {
     var self = this;
     self.EmailId = ko.observable().extend({ required: { message: "Enter Your Email" } });
     self.PassWord = ko.observable().extend({ required: { message: "Enter Your Password" } });
@@ -25,20 +26,16 @@
                 //,RememberMe: self.IsRemember()
             }
             var redirectUrl = window.location.origin + 'AuthorizationService\UserSignIn';
-            var login = $.ajax({
-                type: "POST",
-                url: redirectUrl,
-                data: loginModel,
-                dataType: 'JSON'
-            });
-            login.done(function (status) {
-                if (status) {
-                    console.log(status);
-                }
-            });
-            login.fail(function (msg) {
-
-            });
+            //$.ajax({
+            //    type: "POST",
+            //    url: redirectUrl,
+            //    data: loginModel,
+            //    dataType: 'JSON',
+            //    success: function (data) {
+            //        console.log(data);
+            //    }
+            //});
+            
         }
     };
     self.ValidateInput = function () {
